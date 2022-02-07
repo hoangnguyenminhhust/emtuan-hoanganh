@@ -2,7 +2,7 @@ import axios from 'axios';
 import store from '../store/index';
 
 const $axios = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'http://18.139.0.188:5000',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
